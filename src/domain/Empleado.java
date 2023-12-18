@@ -32,7 +32,7 @@ public class Empleado extends Persona{
         sb.append("Empleado{");
         sb.append("idEmpleado=").append(this.idEmpleado);
         sb.append(", sueldo=").append(this.sueldo);
-        sb.append(", Persona{").append(super.toString()).append("}"); //para acceder de manera directa a la clase padre 
+        sb.append(",").append(super.toString()); //para acceder de manera directa a la clase padre 
         sb.append('}');
         return sb.toString();
     }
